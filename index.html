@@ -6,10 +6,16 @@
     <link rel="stylesheet" type="text/css" href="./google-home.css">
 </head>
 
-<body id="content">
-    <div id="gLogo">
+<body class="wrapper">
+    <div class="gLogo">
         <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="272"
             height="92" />
+    </div>
+    <div class="searchBar">
+        <form action="fake-google-searchbar.php" method="get">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"></button>
+        </form>
     </div>
 
 </body>

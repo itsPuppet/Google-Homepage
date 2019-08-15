@@ -1,9 +1,6 @@
 
-body  {
-    background-color: rgb(179, 165, 216);
-}
-
 #content {
+    background-color: rgb(191, 152, 253);
     display: flex;
     justify-content: center;
 }

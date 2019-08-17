@@ -6,24 +6,28 @@
     <link rel="stylesheet" type="text/css" href="./google-home.css">
 </head>
 
-<body class="wrapper">
+<body>
 
-    <div class="gLogo">
+    <div class="wrapper">
 
-        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="272"
-            height="92" />
+        <div class="gLogo">
 
-    </div>
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="272"
+                height="92" />
 
-    <div class="searchBar">
+        </div>
 
-        <form action="fake-google-searchbar.php" method="post">
+        <div class="searchBar">
 
-            <input type="text" placeholder="Search.." name="search">
+            <form action="fake-google-searchbar.php" method="post">
 
-            <button type="submit"></button>
+                <input type="text" placeholder="Search.." name="search">
+                <div class="searchButton">
+                    <button type="submit">search</button>
+                </div>
+            </form>
 
-        </form>
+        </div>
 
     </div>
 

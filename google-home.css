@@ -1,15 +1,36 @@
-
+* {
+    background-color: rgb(223, 142, 248);
+}
 .wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background-color: rgb(191, 152, 253);
+    /* justify-content: center; */
+    
 }
-.wrapper > * {
-}
+
 .gLogo {
+    margin-top: 10%;
 }
 
 .searchBar {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+input {
+    background-color: white;
+    border: 0;
+    border-radius: 20px;
+    padding-block: 10px;
+    box-shadow: 4px 4px 3px 1px rgba(0, 0, 255, .2);
+}
+
+.searchButton button {
+    border: 0;
+    padding-block: 6px;
+    background-color: white;
+    box-shadow: 4px 4px 3px 1px rgba(0, 0, 255, .2);
+    margin-top: 10px;
+    margin-left: 50px;
 }

@@ -3,23 +3,23 @@
 }
 .wrapper {
     border: solid; /* border so I can see the actual containers */
+    padding: 10px;
     display: flex;
-    flex-direction: column;
+    flex-flow: column nowrap;
     align-items: center;
+    justify-content: center;
+  
 }
 
-.gLogo {
-    margin-top: 10%;
-}
 
-.searchBar {
-    border-block: solid white 2px; /* border so I can see the container */
-    display: flex;
+/*.searchBar {
+    border-block: solid white 2px; /* border so I can see the container 
     padding-block: 10px;
     padding-left: 10px;
     flex-direction: column;
-}
+}*/
 input {
+    order: 1;
     background-color: white;
     border: 0;
     border-radius: 20px;
@@ -28,10 +28,12 @@ input {
 }
 
 button {
+    order: 2;
     border: 0;
     padding-block: 6px;
     background-color: white;
     box-shadow: 4px 4px 3px 1px rgba(0, 0, 255, .2);
     margin-top: 10px;
     margin-left: 50px;
+
 }

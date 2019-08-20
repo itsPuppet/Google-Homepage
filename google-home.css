@@ -7,8 +7,28 @@ body{
     padding: 10px;
     margin: 0;
 }
+nav {
+    width: 100%;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navLinks {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.navItem a {
+    display: inline-block;
+    padding: 10px;
+}
 
 .wrapper {
+    margin-top: 10%;
     padding: 10px;
     display: flex;
     flex-flow: column nowrap;
